@@ -37,22 +37,22 @@ if (!is_null($events['events'])) {
 				];
 			}else{
 			  // Build message to reply back
-				//$messages = [
-				//	'type' => 'text',
-				//	'text' => "ฉันไม่เข้าใจคำสั่ง ".$text." \uDBC0\uDC84 LINE emoji"
-				//];
-				
 				$messages = [
-					[
 					'type' => 'text',
-					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text	
-					]
-					,
-					[
-				        "type": "text",
-				        "text": "\uDBC0\uDC84 LINE emoji"
-					]
+					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text." \uDBC0\uDC84 LINE emoji"
 				];
+				
+				//$messages = [
+				//	[
+				//	'type' => 'text',
+				//	'text' => "ฉันไม่เข้าใจคำสั่ง ".$text	
+				//	]
+				//	,
+				//	[
+				//      "type": "text",
+				//        "text": "\uDBC0\uDC84 LINE emoji"
+				//	]
+				//];
 				
 			}
  
