@@ -40,10 +40,6 @@ if (!is_null($events['events'])) {
 				$messages = [
 					'type' => 'text',
 					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text
-				],
-				[
-					'type' => 'text',
-					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text." \uDBC0\uDC84 LINE emoji"
 				];
 				
 				//$messages = [
