@@ -46,8 +46,13 @@ if (!is_null($events['events'])) {
 			}
 			
 			$messages_2 = [
-					'type' => 'text',
-					"text": "\uDBC0\uDC84 LINE emoji"
+				{
+  "type": "sticker",
+  "packageId": "1",
+  "stickerId": "1"
+}
+					//'type' => 'text',
+					//"text": "\uDBC0\uDC84 LINE emoji"
 				];
  
  
