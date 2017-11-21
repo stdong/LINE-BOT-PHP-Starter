@@ -53,8 +53,8 @@ if (!is_null($events['events'])) {
 
 			$messages_3 = [
     'type': 'image',
-    'originalContentUrl': 'https://cdn.pixabay.com/photo/2017/11/14/00/57/christmas-2947257__340.jpg',
-    'previewImageUrl': 'https://cdn.pixabay.com/photo/2017/11/14/00/57/christmas-2947257__340.jpg'
+    'originalContentUrl': 'https://i.pinimg.com/736x/24/80/89/248089b405a9b7ab88c18399796d6b82--origami-infographic.jpg',
+    'previewImageUrl': 'https://i.pinimg.com/736x/24/80/89/248089b405a9b7ab88c18399796d6b82--origami-infographic.jpg'
 ];
 
 
