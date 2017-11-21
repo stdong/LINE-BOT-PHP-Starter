@@ -52,12 +52,6 @@ if (!is_null($events['events'])) {
 					//"text": "\uDBC0\uDC84 LINE emoji"
 				];
  
- 			$messages_3 = [
-    "type": "image",
-    "originalContentUrl": "https://cdn.pixabay.com/photo/2017/11/16/08/35/box-2953722_960_720.jpg",
-    "previewImageUrl": "https://images.pexels.com/photos/654671/pexels-photo-654671.jpeg"
-];
-			
 			
 			// Build message to reply back
 			//$messages = [
