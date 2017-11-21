@@ -41,20 +41,14 @@ if (!is_null($events['events'])) {
 					'type' => 'text',
 					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text
 				];
-				
-				//$messages = [
-				//	[
-				//	'type' => 'text',
-				//	'text' => "ฉันไม่เข้าใจคำสั่ง ".$text	
-				//	]
-				//	,
-				//	[
-				//      "type": "text",
-				//        "text": "\uDBC0\uDC84 LINE emoji"
-				//	]
-				//];
+				  
 				
 			}
+			
+			$messages_2 = [
+					'type' => 'text',
+					"text": "\uDBC0\uDC84 LINE emoji"
+				];
  
  
 			
@@ -70,7 +64,7 @@ if (!is_null($events['events'])) {
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
 				'replyToken' => $replyToken,
-				'messages' => [$messages, $messages],
+				'messages' => [$messages, $messages_2],
 			];
 			$post = json_encode($data);
 			$headers = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
