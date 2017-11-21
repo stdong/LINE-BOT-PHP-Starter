@@ -51,11 +51,7 @@ if (!is_null($events['events'])) {
 				'text' => $text
 			];
 
-			$messages_3 = [
-    'type': 'image',
-    'originalContentUrl': 'https://i.pinimg.com/736x/24/80/89/248089b405a9b7ab88c18399796d6b82--origami-infographic.jpg',
-    'previewImageUrl': 'https://i.pinimg.com/736x/24/80/89/248089b405a9b7ab88c18399796d6b82--origami-infographic.jpg'
-];
+
 
 
 			// Make a POST Request to Messaging API to reply to sender
