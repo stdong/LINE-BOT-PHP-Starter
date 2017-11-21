@@ -21,7 +21,7 @@ if (!is_null($events['events'])) {
 			  // Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => "สวัสดี ID คุณคือ ".$event['events'][0]['source']['userId']
+					'text' => "สวัสดี ID คุณคือ ".$event['source']['userId']
 				];
 			}else if($text == "ชื่ออะไร"){
 			  // Build message to reply back
