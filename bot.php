@@ -43,15 +43,7 @@ if (!is_null($events['events'])) {
 				];
 				  
 				
-			}
-			
-			$messages_2 = [
-"type": "text",
-    "text": "\uDBC0\uDC84 LINE emoji"
-					//'type' => 'text',
-					//"text": "\uDBC0\uDC84 LINE emoji"
-				];
- 
+			} 
 			
 			// Build message to reply back
 			//$messages = [
