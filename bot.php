@@ -39,9 +39,10 @@ if (!is_null($events['events'])) {
 			  // Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text
+					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text." \uDBC0\uDC84 LINE emoji"
 				];
 			}
+ 
  
 			
 			// Build message to reply back
