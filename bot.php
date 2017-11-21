@@ -39,6 +39,10 @@ if (!is_null($events['events'])) {
 			  // Build message to reply back
 				$messages = [
 					'type' => 'text',
+					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text
+				],
+				[
+					'type' => 'text',
 					'text' => "ฉันไม่เข้าใจคำสั่ง ".$text." \uDBC0\uDC84 LINE emoji"
 				];
 				
@@ -70,7 +74,6 @@ if (!is_null($events['events'])) {
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
 				'replyToken' => $replyToken,
-				'messages' => [$messages],
 				'messages' => [$messages],
 			];
 			$post = json_encode($data);
